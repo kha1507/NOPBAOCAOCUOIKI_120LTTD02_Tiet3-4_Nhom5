@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Toi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_ql"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:drawableLeft="@drawable/ic_close" >
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mời bạn bè"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:drawableRight="@drawable/ic_search" >
+            </Button>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#C0C0C0">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gửi cho bạn bè qua"
+            android:textColor="#808080"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_messenger"
+        android:drawableRight="@drawable/ic_next"
+        android:text="Gửi qua Messenger">
+    </Button>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_fb"
+        android:drawableRight="@drawable/ic_next"
+        android:text="Gửi qua FaceBook">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_gamil"
+        android:drawableRight="@drawable/ic_next"
+        android:text="Lịch sử đơn hàng">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableRight="@drawable/ic_next"
+        android:text="Hóa đơn">
+    </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_trangchu"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_home"
+            android:background="@drawable/button_footer"
+            android:text="Home"
+            />
+        <Button
+            android:id="@+id/btthongbao"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="32dp"
+            android:drawableTop="@drawable/ic_thongbao"
+            android:background="@drawable/button_footer"
+            android:text="Thông báo"/>
+        <Button
+            android:id="@+id/bt_toi"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_toi"
+            android:background="@drawable/button_footer"
+            android:text="Tôi">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

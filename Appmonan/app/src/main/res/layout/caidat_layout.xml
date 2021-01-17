@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Toi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_qlai"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:drawableLeft="@drawable/ic_close" >
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cài đặt"
+                android:textColor="#ffffff"
+                android:background="#ff0000">
+        </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#C0C0C0">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Cài đặt tài khoản"
+                android:textColor="#808080"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_hinhdaidien"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Hình đại diện"></Button>
+        <Button
+            android:id="@+id/bt_matkhau"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Mật khẩu">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_thongtinlienhe"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Thông tin liên hệ">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#C0C0C0">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Tùy chỉnh đơn hàng"
+                android:textColor="#808080"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_binhluan"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Hoãn xác nhận đơn hàng"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#C0C0C0">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Cài đặt ứng dụng"
+                android:textColor="#808080"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_vitri"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Đổi tỉnh thanh"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_doidanhmuc"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Đổi danh mục">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_doingonngu"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Đổi ngôn ngữ">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_trangchu"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_home"
+            android:background="@drawable/button_footer"
+            android:text="Home"
+            />
+        <Button
+            android:id="@+id/btthongbao"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="32dp"
+            android:drawableTop="@drawable/ic_thongbao"
+            android:background="@drawable/button_footer"
+            android:text="Thông báo"/>
+        <Button
+            android:id="@+id/bt_toi"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_toi"
+            android:background="@drawable/button_footer"
+            android:text="Tôi">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
